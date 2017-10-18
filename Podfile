@@ -4,6 +4,8 @@
 source 'https://github.com/LJModuleDemo/PrivatePod.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
+project './ModuleA/ModuleA.xcodeproj'
+
 target 'ModuleA' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!

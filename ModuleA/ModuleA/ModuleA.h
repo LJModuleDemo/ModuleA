@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Target_ModuleA.h"
 //! Project version number for ModuleA.
 FOUNDATION_EXPORT double ModuleAVersionNumber;
 

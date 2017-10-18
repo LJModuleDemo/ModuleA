@@ -9,5 +9,7 @@
 #import "Target_ModuleA.h"
 
 @implementation Target_ModuleA
-
+-(UIViewController *)Action_ViewController:(NSDictionary *)param{
+    return [[ModuleAViewController alloc] initWithNibName:@"ModuleAViewController" bundle:nil];
+}
 @end
