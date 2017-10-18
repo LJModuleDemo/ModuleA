@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ModuleA"
-  s.version      = "1"
+  s.version      = "1.0.9"
   s.summary      = "ModuleA."
 
   # This description is used to generate tags and improve search results.
@@ -104,9 +104,8 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-
-  # s.resource  = "*.xib"
-  # s.resources = "Resources/*.*"
+  s.resource  = "*.xib"
+  s.resources = "ModuleA/*.*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
