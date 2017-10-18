@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Resources/*.xib"
+  s.resource = "ModuleA/ModuleA/ViewControllers/ModuleAViewController.xib"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
