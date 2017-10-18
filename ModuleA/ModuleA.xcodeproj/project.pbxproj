@@ -16,6 +16,7 @@
 		84E2CA661F9752FA00DDFD3F /* ModuleAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E2CA631F9752FA00DDFD3F /* ModuleAViewController.xib */; };
 		84E2CA691F97534000DDFD3F /* Target_ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E2CA671F97534000DDFD3F /* Target_ModuleA.h */; };
 		84E2CA6A1F97534000DDFD3F /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2CA681F97534000DDFD3F /* Target_ModuleA.m */; };
+		84E2CA6F1F97872F00DDFD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E2CA6E1F97872F00DDFD3F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		84E2CA631F9752FA00DDFD3F /* ModuleAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleAViewController.xib; sourceTree = "<group>"; };
 		84E2CA671F97534000DDFD3F /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
 		84E2CA681F97534000DDFD3F /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
+		84E2CA6E1F97872F00DDFD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2723DD87AA1C6887BFB6C82 /* Pods-ModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ModuleA/Pods-ModuleA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				84E2CA5F1F9752A300DDFD3F /* Action */,
 				84E2C9761F97249700DDFD3F /* ModuleA.h */,
 				84E2C9771F97249700DDFD3F /* Info.plist */,
+				84E2CA6E1F97872F00DDFD3F /* Assets.xcassets */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E2CA6F1F97872F00DDFD3F /* Assets.xcassets in Resources */,
 				84E2CA661F9752FA00DDFD3F /* ModuleAViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
